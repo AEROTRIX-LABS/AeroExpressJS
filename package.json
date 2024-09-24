@@ -4,9 +4,13 @@
   "description": "AeroExpressJS - An ExpressJS API Template",
   "main": "app.js",
   "scripts": {
-    "dev":"nodemon app.js",
-    "start":"node app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "author": "Arun Dutta-Plummer (AEROTRIX LABS)",
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
 }
