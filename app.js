@@ -3,8 +3,11 @@
 const express = require("express");
 const app = express();
 
+const cors = require("cors");
+
 const PORT = 400;
 
+app.use(cors());
 app.use(express.json());
 
 app.all("/*", (req, res) => {
